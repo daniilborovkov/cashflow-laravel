@@ -19,6 +19,8 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
+Vue.component('left-column', require('./components/LeftColumn.vue'));
+
 // const files = require.context('./', true, /\.vue$/i)
 
 // files.keys().map(key => {
